@@ -22,8 +22,8 @@ Projeto utliza a API de código aberto: http://fakerestapi.azurewebsites.net/swa
 
 Para executar os testes por linha de comando:
 
-```shell - impedidos
-mvn package -Dgatling.simulationClass=br.com.lojasrenner.api.impedidos.simulation.ConsultaListaWorldCheck -f src/load-test/pom.xml
+```shell
+clean test -Dgatling.simulationClass=br.com.cliente.api.loadTest.simulation.NomeRota -f pom.xml
 ```
 
 #### Estrutura do Modulo
